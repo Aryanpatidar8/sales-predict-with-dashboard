@@ -1,0 +1,16 @@
+date,store,item,promotion,price,sales
+2023-01-01,StoreA,Item1,0,10.0,100
+2023-01-02,StoreA,Item1,1,10.0,130
+2023-01-03,StoreA,Item2,0,15.0,80
+2023-01-04,StoreB,Item1,0,11.0,95
+2023-01-05,StoreB,Item2,1,14.0,120
+2023-01-06,StoreA,Item1,0,10.0,110
+2023-01-07,StoreA,Item2,1,15.0,140
+2023-01-08,StoreB,Item1,0,11.0,90
+2023-01-09,StoreB,Item2,0,14.0,85
+2023-01-10,StoreC,Item3,1,20.0,200
+2023-01-11,StoreC,Item3,0,20.0,180
+2023-01-12,StoreA,Item2,0,15.0,95
+2023-01-13,StoreB,Item1,1,11.0,130
+2023-01-14,StoreC,Item3,1,19.0,210
+2023-01-15,StoreA,Item1,0,10.0,105

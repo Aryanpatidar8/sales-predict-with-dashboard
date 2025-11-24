@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Predictor Dashboard</title>
+    <link rel="stylesheet" href="/static/css/styles.css" />
+    <style>
+      .chart-wrap{height:320px}
+      .pred-table{width:100%;border-collapse:collapse}
+      .pred-table th,.pred-table td{padding:8px;border-bottom:1px solid rgba(255,255,255,0.04);text-align:left}
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-inner">
+        <h1>Predictor Dashboard</h1>
+        <p class="subtitle">Recent predictions and EDA</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h3>Recent Predictions</h3>
+        <div class="chart-wrap">
+          <canvas id="predChart"></canvas>
+        </div>
+        <h4>History</h4>
+        <table class="pred-table" id="historyTable">
+          <thead><tr><th>Time</th><th>Store / Item</th><th>Input (price,promo)</th><th>Prediction</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section class="card">
+        <h3>EDA images (if available)</h3>
+        <div id="edaImages">
+          <p>Loading images...</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">Local demo — not for production</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/static/js/dashboard.js"></script>
+  </body>
+</html>

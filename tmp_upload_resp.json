@@ -1,0 +1,67 @@
+{
+  "categorical_columns": [
+    "store",
+    "item"
+  ],
+  "columns": [
+    "date",
+    "store",
+    "item",
+    "price",
+    "promotion",
+    "sales"
+  ],
+  "images": [
+    "user_1763954095_over_time.png",
+    "user_1763954095_distribution.png",
+    "user_1763954095_by_store.png"
+  ],
+  "numeric_columns": [
+    "price",
+    "promotion",
+    "sales"
+  ],
+  "preview": [
+    {
+      "date": "Sat, 01 Nov 2025 00:00:00 GMT",
+      "item": "Item1",
+      "price": 9.99,
+      "promotion": 0,
+      "sales": 120,
+      "store": "StoreA"
+    },
+    {
+      "date": "Sun, 02 Nov 2025 00:00:00 GMT",
+      "item": "Item1",
+      "price": 9.99,
+      "promotion": 1,
+      "sales": 200,
+      "store": "StoreA"
+    },
+    {
+      "date": "Mon, 03 Nov 2025 00:00:00 GMT",
+      "item": "Item2",
+      "price": 14.5,
+      "promotion": 0,
+      "sales": 95,
+      "store": "StoreA"
+    },
+    {
+      "date": "Tue, 04 Nov 2025 00:00:00 GMT",
+      "item": "Item1",
+      "price": 9.99,
+      "promotion": 0,
+      "sales": 110,
+      "store": "StoreB"
+    },
+    {
+      "date": "Wed, 05 Nov 2025 00:00:00 GMT",
+      "item": "Item3",
+      "price": 5.0,
+      "promotion": 1,
+      "sales": 300,
+      "store": "StoreB"
+    }
+  ],
+  "upload_path": "uploads/user_1763954095_sample_upload.csv"
+}
